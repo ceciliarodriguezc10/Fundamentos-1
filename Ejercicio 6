@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int t,e,s,x;
+    cout<<"Introducir la hora en formato de 24 horas: " <<endl;
+    cin>>t;
+    cout<<"Introducir los minutos: "<<endl;
+    cin>>e;
+    cout<<"Introducir los segundos: "<<endl;
+    cin>>s;
+    x=t-12;
+    if (t>12){
+        
+    cout<<"Esta es la hora: ";
+    cout<<x;
+    cout<<":" << e; 
+    cout<<":" << s;
+    cout<<"PM";
+    
+    } else {
+    cout<<"Esta es la hora: ";
+    cout<< t;
+    cout<<":"<<e;
+    cout<<":"<<s;
+    cout<<"AM";
+    }
+    
+    return 0;
+}
