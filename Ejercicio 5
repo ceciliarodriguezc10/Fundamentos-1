@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   float c, n, t, i;
+   cout<<"Calculadora de interes simple. "<< endl;
+   cout <<"Ingrese el monto de dinero: " <<endl;
+   cin>>c; 
+   cout<<"Ingrese el tiempo en años: " << endl;
+   cin>> n; 
+   cout<<"Ingrese la tasa de interes en un numero real:  "<< endl;
+   cin>>t;
+   i=(n*(t/100))*c;
+   cout<<"El interes ganado es: "<<i<<  endl; 
+
+    return 0;
+}
+
