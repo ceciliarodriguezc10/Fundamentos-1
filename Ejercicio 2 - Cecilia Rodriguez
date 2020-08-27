@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+{
+	float diametro, radio, pi, perimetro, area, volumen ;
+	
+	cout <<"ingrese el valor del diametro";
+	cin>>diametro;
+	pi=3.1416;
+	radio=diametro/2;
+	perimetro=diametro*pi;
+	area=radio*radio*pi;
+	volumen=(4/3)*radio*radio*raio*pi;
+	cout <<"el perimetro es: "<<perimetro<<endl;
+	cout<<"el area es: "<<area<<endl;
+	cout<<"el volumen es: "<<volumen<<endl;
+    cout<<"gracias por su preferencia";
+    
+    return 0;
+}
