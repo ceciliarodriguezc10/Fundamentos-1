@@ -1,0 +1,28 @@
+          Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float diametro, radio, pi, perimetro, area, volumen ;
+    
+    cout<<"Ingrese el valor del diametro: ";
+    cin>> diametro;
+    pi= 3.1416 ;
+    radio= diametro/2;
+    perimetro= diametro*pi;
+    area= radio*radio*pi*4;
+    volumen= (4/3)*radio*radio*radio*pi;
+    cout<<" el perimetro es :"<<perimetro<<endl;
+    cout<<" el area es :"<<area<<endl;
+    cout<<" el volumen es :"<<volumen<<endl;
+    
+
+    return 0;
+}
