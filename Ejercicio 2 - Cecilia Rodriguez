@@ -14,7 +14,7 @@ int main()
 	radio=diametro/2;
 	perimetro=diametro*pi;
 	area=radio*radio*pi;
-	volumen=(4/3)*radio*radio*raio*pi;
+	volumen=(4/3)*radio*radio*radio*pi;
 	cout <<"el perimetro es: "<<perimetro<<endl;
 	cout<<"el area es: "<<area<<endl;
 	cout<<"el volumen es: "<<volumen<<endl;
