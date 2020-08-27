@@ -13,9 +13,9 @@ using namespace std;
 int main()
 {
     float s,j,d;
-    cout<<"Ingrsar los dias"<<endl;
+    cout<<" Ingresar los dias "<<endl;
     cin>> d;
-    cout<<"el monto del jornal"<<endl;
+    cout<<" El monto del jornal "<<endl;
     cin>>j;
     s=d*j;
     cout<<"el salario es: "<<s;
