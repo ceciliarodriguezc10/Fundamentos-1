@@ -1,0 +1,42 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b, c, d, e, f, g, h,i, j, k, l, m, n, x;
+
+    cout<<"Ingrese el primer numero para sumar: ";
+	cin>>a;
+	cout<<"Ingrese el segundo numereo para sumar: ";
+    cin>>b;
+	c= a+b; 
+	cout <<" La suma es: "<< c << endl;
+    cout<<"Ingrese el primer numero para multiplicar: ";
+    cin>>d;
+	cout<<"Ingrese el segundo numero para multiplicar: ";
+	cin>>e;
+	f=d*e; 
+    cout<<"El resultado es:"<< f << endl;
+    cout<<"Ingrese el primer numero para restar: ";
+    cin>> g;
+	cout<<"Ingrese el segundo numero para restar: ";
+    cin>>h;
+	i= g-h;
+	cout<<"El resultado es:"<< i << endl;
+    cout<<"Ingrese el primer numero para dividir:"; 
+	cin>>j;
+    cout<<"Ingrese el segundo numero para dividir: ";
+    cin>>k;
+	l=j/k;
+	cout<<"El resultado es:"<< l << endl;
+	cout<<"Ingrese el primer numero para sacar porcentaje: ";
+	cin>>m;
+	cout<<"Ingrese el segundo numero para sacar porcentaje: ";
+	cin>>n;
+	x= m%n; 
+	cout<<"El resultado es:"<< x << endl;
+
+
+    return 0;
+}
