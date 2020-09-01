@@ -8,9 +8,9 @@ using namespace std;
 int main()
 {
 int a,b,c;
-    cout<<"ingresa el primer operando:" <<endl;
+    cout<<"ingresa el primer sumando: " <<endl;
     cin>>a;
-    cout<<"ingresa el segundo operando";
+    cout<<"ingresa el segundo sumando: " <<endl;
     cin>>b;
     c= a+b;
     cout<<"la suma es:"<<c;
