@@ -1,0 +1,26 @@
+#include <iostream> 
+#include "math.h"
+usando el espacio de nombres std;
+
+
+int main ()
+{
+
+	int n;
+	flotar s = 0, x;
+	cout << "Ingrese N:" << endl;
+	cin >> n;
+
+	cout << "Ingrese x:" << endl;
+	cin >> x;
+	
+	para (int i = 1; i <= n; i ++)
+	{
+		s = s + pow (x, i);
+	}
+
+	cout << "La suma de la serie es:" << s << endl;
+
+return 0;
+
+}
