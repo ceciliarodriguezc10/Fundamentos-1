@@ -1,0 +1,35 @@
+// funciones.cpp: Define el punto de entrada para la aplicación de consola.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+usando el espacio de nombres std;
+
+flotar Volcilindro (flotar r, flotar a);
+
+int main ()
+{
+	flotar volumen, radio, altura;
+	cout << "Imgrese el radio:" << endl;
+	cin >> radio;
+	cout << "Ingrese la altura:" << endl;
+	cin >> altura;
+
+	volumen = Volcilindro (radio, altura);
+
+	cout << "El volumen es:" << volumen;
+
+getch ();
+return 0;
+}
+
+flotar Volcilindro (flotar r, flotar a)
+{
+	volumen flotante, pi = 3,141516;
+	vol = pi * r * r * a;
+	return vol;
+
+}
