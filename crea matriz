@@ -1,0 +1,62 @@
+// ejemplomatriz.cpp: Define el punto de entrada para la aplicación de consola.
+//
+
+#include <iostream>
+#include "conio.h"
+#define MAX 10
+
+usando el espacio de nombres std;
+
+void cargar (int MATRIZ [MAX] [MAX], int n, int m);
+// void mostrar (int MATRIZ [MAX] [MAX], int n, int m);
+diagonal vacía (int MATRIZ [MAX] [MAX], int n);
+
+int main ()
+{
+	int n, m;
+	int MAT [MAX] [MAX];
+	hacer {
+		cout << "Ingrese el tamaño de filas de la matriz:";
+		cin >> n;
+	} while ((n <= 0) || (n> MAX));
+
+	hacer {
+		cout << "Ingrese el tamaño de las columnas de la matriz:";
+		cin >> m;
+	} while ((m <= 0) || (m> MAX));
+
+	si (n == m)
+	{
+		cargar (MAT, n, m);
+		diagonal (MAT, n);
+	}
+	más
+		cout << "No se puede procesar la diagonal por que no es cuadrada";
+	return 0;
+}
+
+
+
+void cargar (int MATRIZ [MAX] [MAX], int n, int m)
+{
+	para (int i = 0; i <n; i ++) {
+
+		para (int j = 0; j <m; j ++) {
+			cout << "Ingrese el valor para M [" << i << "] [" << j << "]:";
+			cin >> MATRIZ [i] [j];
+
+		}
+	}
+}
+
+// void mostrar (int MATRIZ [MAX] [MAX], int n, int m);
+diagonal vacía (int MATRIZ [MAX] [MAX], int n)
+{
+	cout << "Los elementos de la diagonal son:";
+	para (int i = 0; i <n; i ++)
+	{
+		cout << "Para el elemento [" << i << "], [" << i << "]:";
+		cout << MATRIZ [i] [i] << endl;
+	}
+
+}
