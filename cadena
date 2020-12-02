@@ -1,0 +1,21 @@
+#include <iostream>
+#include "conio.h"
+#include <cadena>
+
+usando el espacio de nombres std;
+
+int main ()
+{
+	string nombrecompleto, nombre, apellido;
+	int longitud, espacio;
+	cout << "Ingrese el nombre:";
+	getline (cin, nombrecompleto); // cin pero no tomaria en cuenta el espacio cin >> nombre;
+	cout << "Hola" << nombrecompleto;
+	espacio = nombrecompleto.find ('');
+	longitud = nombrecompleto.length ();
+	nombre = nombrecompleto.substr (0, espacio);
+	apellido = nombrecompleto.substr (espacio, longitud-espacio);
+	cout << apellido;
+	nombrecompleto = apellido + '' + nombre;
+	cout << nombrecompleto;
+	return 0;
