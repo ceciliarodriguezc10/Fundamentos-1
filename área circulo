@@ -1,0 +1,30 @@
+#include "stdafx.h"
+#include <iostream>
+#include "math.h"
+
+usando el espacio de nombres std;
+
+flotador areacirculo (radio flotante);
+
+
+        
+int main ()
+{
+    
+    
+    flotar r, h;
+    char opc; 
+    cout << "Ingrese el radio:";
+    cin >> r;
+    h = areacirculo (r);
+     cout << "El area de la circunferencia es:" << h << endl;
+  return 0;
+  
+}
+
+    float areacirculo (radio flotante) {
+    área de flotación, PI = 3,141516;
+        área = PI * (radio * radio);
+        zona de retorno;
+        
+    }
